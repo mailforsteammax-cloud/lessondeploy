@@ -11,7 +11,7 @@ dp = Dispatcher()
 
 @dp.message(Command("start"))
 async def start(message: types.Message):
-    await message.answer("Я жив 🚀")
+    await message.answer("Новое сообщение для старта 🚀")
 
 @dp.message(Command("ping"))
 async def ping(message: types.Message):
